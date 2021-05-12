@@ -4,10 +4,10 @@ C implementation of Matrix Multiplication in MPI. This work was made for the Con
 # Getting Started
 To run this code you need to install MPI [Open MPI](https://www.open-mpi.org/).
 
-# Compilation
+## Compilation
     $ mpicc -o exec ./MatrixMultiplicationUsingMPI.c 
     
-# Execution
+## Execution
 To execute four multiple parallel processes.
 
     $ mpirun -np 4 ./exec
